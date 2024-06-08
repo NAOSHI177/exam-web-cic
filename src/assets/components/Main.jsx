@@ -1,16 +1,20 @@
-import Informaciones from "./Informaciones"
+import Informaciones from "./Informaciones";
 
 const Main = () => {
   return (
     <>
-        <main className='bg-[#9cdbff]'> 
-            <div className="w-[960px] flex m-[auto]">
-                <img src="./src/assets/img/emilie.png"></img>
-            </div>
-          <Informaciones></Informaciones>
-        </main>
+      <main className="bg-[#9cdbff]">
+        <div className="max-w-[960px] mx-auto">
+          <img
+            src="./src/assets/img/emilie.png"
+            alt="Imagen"
+            className="w-full h-auto"
+          />
+        </div>
+        <Informaciones />
+      </main>
     </>
-  )
-}
+  );
+};
 
-export default Main
+export default Main;
