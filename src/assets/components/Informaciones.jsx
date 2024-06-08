@@ -1,9 +1,10 @@
+import enImg from '/src/assets/img/en.jpg';
+import solImg from '/src/assets/img/sol.jpg';
+import feImg from '/src/assets/img/fe.jpg';
+
+
 const Informaciones = () => {
-  const fotos = [
-    "./src/assets/img/en.jpg",
-    "./src/assets/img/sol.jpg",
-    "./src/assets/img/fe.jpg"
-  ];
+  const fotos = [enImg, solImg, feImg];
   const text = [
     "Los mejores didactivos",
     "Somos una familia",

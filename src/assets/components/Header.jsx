@@ -1,3 +1,5 @@
+import cicLogo from '/src/assets/img/logos/cic.png'
+
 const Header = () => {
     const navItems = [
       { name: 'Inicio', href: '#' },
@@ -14,7 +16,7 @@ const Header = () => {
             <div className="flex w-full flex-col bg-[#1046ea]">
               <div className="flex flex-col md:flex-row w-full md:w-[720px] lg:w-[960px] bg-[#0d0b90] m-auto mt-[40px] rounded-t-[50px] items-center p-4 md:p-0">
                 <div className="flex-shrink-0">
-                  <img src="./src/assets/img/logos/cic.png" width="200" className="mx-auto md:mx-0" alt="CIC Logo" />
+                  <img src={cicLogo} width="200" className="mx-auto md:mx-0" alt="CIC Logo" />
                 </div>
                 <div className="text-white flex flex-col text-center md:text-left mt-4 md:mt-0">
                   <h1 className="text-[26px] md:text-[36px] lg:text-[46px]">Colegio Inmaculada Concepcion</h1>
