@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
@@ -39,9 +39,9 @@ const Footer = () => {
 
           <div className="mt-10 ">
             <ul className="list-none  flex lg:flex-col text-2xl lg:text-4xl justify-between  items-center">
-              <li className='m-4'><a href="https://www.facebook.com" ><FontAwesomeIcon icon={faFacebook}/></a></li>
-              <li className='m-4'><a href="https://www.instagram.com" ><FontAwesomeIcon icon={faInstagram}/></a></li>
-              <li className='m-4'><a href="https://www.youtube.com" ><FontAwesomeIcon icon={faYoutube}/></a></li>
+              <li className='m-4'><a href="https://www.facebook.com/ciccde" ><FontAwesomeIcon icon={faFacebook}/></a></li>
+              <li className='m-4'><a href="https://www.instagram.com/ciccdeoficial/" ><FontAwesomeIcon icon={faInstagram}/></a></li>
+              <li className='m-4'><a href="https://api.whatsapp.com/send?phone=595961935646" ><FontAwesomeIcon icon={faWhatsapp}/></a></li>
             </ul>
           </div>
         </div>
